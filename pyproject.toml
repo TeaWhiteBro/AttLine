@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "attline"
+version = "0.4.0"
+description = "Capture and visualize joint-attention maps from diffusion pipelines — per segment, per word, or per bounding box."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Zhiyang Deng", email = "teawhite.official@gmail.com" },
+]
+keywords = [
+  "diffusion",
+  "diffusers",
+  "attention",
+  "visualization",
+  "flux",
+  "interpretability",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+  "numpy>=1.24",
+  "pillow>=10.0",
+  "torch>=2.1",
+]
+
+[project.optional-dependencies]
+diffusers = ["diffusers>=0.35"]
+
+[project.urls]
+Homepage = "https://github.com/TeaWhiteBro/attline"
+Repository = "https://github.com/TeaWhiteBro/attline"
+Issues = "https://github.com/TeaWhiteBro/attline/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["attline*"]

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.env
+
+# example outputs
+attn_out/
+attn_out_*/
+
+# Claude Code local state
+.claude/
+
+flux-klein.png                                                                                                             
+flux-dev.png                                                                                                               
+qwen_image_2512.png
