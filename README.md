@@ -1,4 +1,4 @@
-# Attline: Visualize Attention at a Line in Diffusers
+# AttLine: Visualize Attention at a Line in Diffusers
 
 > Capture and visualize joint-attention maps from diffusion pipelines — per segment, per word, or per bounding box. Lightweight, no fork of `diffusers` needed.
 

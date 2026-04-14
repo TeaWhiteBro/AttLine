@@ -1,4 +1,4 @@
-# Attline: Visualize Attention at a Line in Diffusers
+# AttLine: Visualize Attention at a Line in Diffusers
 
 > 捕获并可视化 diffusion pipeline 的 joint-attention 图 —— 可按 segment、按词或按 bounding box。轻量，无需 fork `diffusers`。
 
