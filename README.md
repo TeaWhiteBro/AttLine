@@ -16,12 +16,26 @@ Since `diffusers>=0.35` reworked its attention dispatch interface, existing atte
 | `FluxPipeline`        | `black-forest-labs/FLUX.1-dev`, `FLUX.1-schnell`             | [`examples/flux1_dev.py`](examples/flux1_dev.py)            |
 | `QwenImagePipeline`   | `Qwen/Qwen-Image`, `Qwen/Qwen-Image-2512`                    | [`examples/qwen_image_2512.py`](examples/qwen_image_2512.py) |
 
+### Roadmap
+
+- [ ] More pipeline integrations
+- [ ] Image-editing model support
+- [ ] `bbox` as a query selector
+
 ## Install
 
+**1. Install `diffusers` from source or `>=0.37.0`:**
+
 ```bash
+pip install git+https://github.com/huggingface/diffusers.git
+```
+
+**2. Clone and install AttLine:**
+
+```bash
+git clone https://github.com/TeaWhiteBro/AttLine.git
+cd AttLine
 pip install -e .
-# or, for the optional diffusers dep pin:
-pip install -e ".[diffusers]"
 ```
 
 ## Quickstart

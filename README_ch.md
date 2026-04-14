@@ -16,12 +16,26 @@
 | `FluxPipeline`       | `black-forest-labs/FLUX.1-dev`, `FLUX.1-schnell`             | [`examples/flux1_dev.py`](examples/flux1_dev.py)            |
 | `QwenImagePipeline`  | `Qwen/Qwen-Image`, `Qwen/Qwen-Image-2512`                    | [`examples/qwen_image_2512.py`](examples/qwen_image_2512.py) |
 
+### Roadmap
+
+- [ ] 支持更多 pipeline
+- [ ] 图像编辑模型支持
+- [ ] 支持 `bbox` 作为 query selector
+
 ## 安装
 
+**1. 从源码或 `>=0.37.0` 安装 `diffusers`：**
+
 ```bash
+pip install git+https://github.com/huggingface/diffusers.git
+```
+
+**2. Clone 并安装 AttLine：**
+
+```bash
+git clone https://github.com/TeaWhiteBro/AttLine.git
+cd AttLine
 pip install -e .
-# 或安装带 diffusers 版本锁的可选依赖：
-pip install -e ".[diffusers]"
 ```
 
 ## 快速开始
