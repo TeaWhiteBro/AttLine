@@ -73,15 +73,7 @@ image.save("out.png")
 
 ## 引用
 
-如果你觉得这个工具有帮助，欢迎在 GitHub 上点个 ⭐ 并引用：
-
-```bibtex
-@software{attline,
-  title  = {attline: Lightweight joint-attention visualization for diffusion pipelines},
-  year   = {2026},
-  url    = {https://github.com/TeaWhiteBro/attline}
-}
-```
+如果你觉得这个工具有帮助，欢迎在 GitHub 上点个 ⭐。
 
 ## 许可证
 

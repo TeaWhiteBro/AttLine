@@ -73,15 +73,7 @@ This project is inspired by [wooyeolbaek/attention-map-diffusers](https://github
 
 ## Citation
 
-If you find this tool useful, please consider leaving a ⭐ on GitHub and citing it:
-
-```bibtex
-@software{attline,
-  title  = {attline: Lightweight joint-attention visualization for diffusion pipelines},
-  year   = {2026},
-  url    = {https://github.com/TeaWhiteBro/attline}
-}
-```
+If you find this tool useful, please consider leaving a ⭐ on GitHub.
 
 ## License
 
